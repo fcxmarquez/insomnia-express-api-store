@@ -1,0 +1,25 @@
+_id: req_9dcc71d4347a40ab9eadab0226890eaa
+type: Request
+parentId: fld_dc2fa38dc554462e96a8b163f2a900bf
+modified: 1690671254508
+created: 1674260104279
+url: "{{ _.url }}/api/v1/customers/1"
+name: Delete customer
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673486918729.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

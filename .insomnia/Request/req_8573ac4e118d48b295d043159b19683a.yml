@@ -1,0 +1,25 @@
+_id: req_8573ac4e118d48b295d043159b19683a
+type: Request
+parentId: fld_dc2fa38dc554462e96a8b163f2a900bf
+modified: 1689367896684
+created: 1674081563093
+url: "{{ _.url }}/api/v1/customers"
+name: Get customers
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673051806517.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

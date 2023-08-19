@@ -1,0 +1,28 @@
+_id: req_c27a4d1353cb44ff8a35d58fc6a8e0e5
+type: Request
+parentId: fld_49600851c76e4ffd99ca8a5267f21f76
+modified: 1689980987996
+created: 1668479139276
+url: "{{ _.url }}/api/v1/products/1"
+name: Patch partial product
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "New Takis"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668273866514
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

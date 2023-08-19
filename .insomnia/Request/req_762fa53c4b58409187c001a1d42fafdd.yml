@@ -1,0 +1,29 @@
+_id: req_762fa53c4b58409187c001a1d42fafdd
+type: Request
+parentId: fld_fdc34be217a94d03998f9f2ee1a0df51
+modified: 1690670824461
+created: 1672267705484
+url: "{{ _.url }}/api/v1/users"
+name: Create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@mail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671297596217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

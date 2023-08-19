@@ -1,0 +1,29 @@
+_id: req_0a358d9501e44931bdf8cd1083e2b5ae
+type: Request
+parentId: fld_2eaadda82cf84cf194b04afd1061c429
+modified: 1689367974247
+created: 1674863657357
+url: "{{ _.url }}/api/v1/categories"
+name: Create category
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Category 1",
+    	"image": "http://placeimg.com/640/480"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671739565913.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

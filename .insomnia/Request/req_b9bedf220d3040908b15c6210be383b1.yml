@@ -1,0 +1,28 @@
+_id: req_b9bedf220d3040908b15c6210be383b1
+type: Request
+parentId: fld_fdc34be217a94d03998f9f2ee1a0df51
+modified: 1689709403466
+created: 1672267746295
+url: "{{ _.url }}/api/v1/users/1"
+name: Update user
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "nico@email.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671297596267
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

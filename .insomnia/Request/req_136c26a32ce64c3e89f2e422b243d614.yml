@@ -1,0 +1,21 @@
+_id: req_136c26a32ce64c3e89f2e422b243d614
+type: Request
+parentId: fld_a5ce1ae154da4a85b9f643c844b69f00
+modified: 1689709341780
+created: 1677281278473
+url: "{{ _.url }}/api/v1/orders/5"
+name: Get order
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672181570434.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

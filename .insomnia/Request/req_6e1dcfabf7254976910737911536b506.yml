@@ -1,0 +1,32 @@
+_id: req_6e1dcfabf7254976910737911536b506
+type: Request
+parentId: fld_49600851c76e4ffd99ca8a5267f21f76
+modified: 1689980972097
+created: 1668478841079
+url: "{{ _.url }}/api/v1/products/3"
+name: Update product
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "New Product",
+    	"price": 85,
+    	"image": "http://placeimg.com/640/480",
+    	"description": "New fresh soda",
+    	"categoryId": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668273866564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

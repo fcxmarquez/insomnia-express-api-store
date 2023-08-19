@@ -1,0 +1,41 @@
+_id: req_fbe732e6d57e44feba0b3770a6230254
+type: Request
+parentId: fld_49600851c76e4ffd99ca8a5267f21f76
+modified: 1689980216092
+created: 1668273218457
+url: "{{ _.url }}/api/v1/products"
+name: Get products
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f4479cc7789b4636a764852528f12a1b
+    name: page
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_a41e8ed8ee164551bd6e0dd7fbb1da09
+    name: price_min
+    value: "60"
+    description: ""
+    disabled: true
+  - id: pair_9fd81e23a4784b0a8756acb2e19e7aa2
+    name: price_max
+    value: "85"
+    description: ""
+    disabled: true
+  - id: pair_908e1978e83842dd89600d6b04b0f83b
+    name: price
+    value: "80"
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1668273866614
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

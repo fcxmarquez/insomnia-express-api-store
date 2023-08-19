@@ -1,0 +1,14 @@
+_id: env_bdf70b80724644d89885f27b2d696b3b
+type: Environment
+parentId: env_c53f9ec057cd5ee2f85d7042cc60c6af80c600b1
+modified: 1690317995007
+created: 1684535156586
+name: Production
+data:
+  url: https://express-api-store-production.up.railway.app
+dataPropertyOrder:
+  "&":
+    - url
+color: "#ff0000"
+isPrivate: false
+metaSortKey: 1684535156586

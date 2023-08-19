@@ -1,0 +1,25 @@
+_id: req_645f1d0f87744d48813d09fc3f9f4547
+type: Request
+parentId: wrk_d03ce97847fc438aa5c02c9b4f8d1a56
+modified: 1690404643919
+created: 1690404042725
+url: "{{ _.url }}/new-route"
+name: Testing Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_68e501cea61b4e55a7e37ff090cd57bd
+    name: x-api-key
+    value: "123"
+    description: ""
+authentication: {}
+metaSortKey: -1690404042725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

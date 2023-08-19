@@ -1,0 +1,21 @@
+_id: req_447e87d76d754814aef083cd26c187ab
+type: Request
+parentId: fld_2eaadda82cf84cf194b04afd1061c429
+modified: 1691179822317
+created: 1691179789131
+url: "{{ _.url }}/api/v1/categories/1"
+name: Delete category
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671518581140.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

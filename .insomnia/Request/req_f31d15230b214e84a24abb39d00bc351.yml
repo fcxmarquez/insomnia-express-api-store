@@ -1,0 +1,32 @@
+_id: req_f31d15230b214e84a24abb39d00bc351
+type: Request
+parentId: fld_49600851c76e4ffd99ca8a5267f21f76
+modified: 1689368091104
+created: 1668274069085
+url: "{{ _.url }}/api/v1/products"
+name: Create product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "New Product 13",
+    	"price": 80,
+    	"image": "http://placeimg.com/640/480",
+    	"description": "Hi im a new product",
+    	"categoryId": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668274069085
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

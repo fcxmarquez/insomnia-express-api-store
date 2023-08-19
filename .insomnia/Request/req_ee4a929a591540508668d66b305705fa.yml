@@ -1,0 +1,21 @@
+_id: req_ee4a929a591540508668d66b305705fa
+type: Request
+parentId: fld_2eaadda82cf84cf194b04afd1061c429
+modified: 1689709352493
+created: 1675120901463
+url: "{{ _.url }}/api/v1/categories/1"
+name: Get category
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671960550686.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
